@@ -32,3 +32,26 @@
 .gold-progress {
   background-color: #B8962A;
 }
+
+/* =============================
+   Responsividade mobile
+   ============================= */
+
+/* Reduz padding no mobile */
+@media (max-width: 640px) {
+  main {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  h1 {
+    font-size: 1.25rem;
+  }
+}
+
+/* Ajusta altura do gráfico em telas pequenas */
+@media (max-width: 480px) {
+  .h-36 {
+    height: 7rem;
+  }
+}
