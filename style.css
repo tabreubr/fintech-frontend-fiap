@@ -1,4 +1,34 @@
 /* 
   Seu Futuro Agora - Dashboard
   FIAP 2026 | Thiago Linares de Abreu | RM: rm569007
+
+  Cores da identidade visual do projeto
+  que o Tailwind não possui por padrão.
 */
+
+/* Verde escuro - sidebar e header */
+.sidebar-color {
+  background-color: #2E3A1A;
+}
+
+/* Dourado - ícone e avatar */
+.gold-bg {
+  background-color: #B8962A;
+  color: #fff;
+}
+
+/* Dourado claro - badge */
+.gold-badge {
+  background-color: #F5EDD0;
+  color: #7A5C0A;
+}
+
+/* Texto dourado */
+.gold-text {
+  color: #B8962A;
+}
+
+/* Barra de progresso dourada */
+.gold-progress {
+  background-color: #B8962A;
+}
